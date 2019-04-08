@@ -1,14 +1,16 @@
+.appLogo {
+  height:20vmin;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+
+.Titulo {
+  left: 35%; 
+  top: 50%;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,15 +21,10 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Bar {
+  border-left: 6px solid white; 
+  height: 20vmin; 
+  position:absolute; 
+  left: 35%; 
+  top: 5%;
 }
