@@ -1,18 +1,6 @@
-.appLogo {
-  height:20vmin;
-  position: absolute;
-  top: 5%;
-  left: 20%;
-}
-
-.Titulo {
-  left: 35%; 
-  top: 50%;
-}
-
 .App {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,10 +9,76 @@
   color: white;
 }
 
+.appLogo {
+  height:20vmin;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+
 .Bar {
   border-left: 6px solid white; 
   height: 20vmin; 
   position:absolute; 
   left: 35%; 
-  top: 5%;
+  top: 2%;
+}
+
+.Titulo {
+  left: 40%; 
+  top: 50%;
+}
+
+.ListElements{
+  align-items: center;
+  display: flex;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+
+.Data{
+  margin-left: 5%;
+  font-size: 1.5vmin;
+}
+
+.Name{
+  font-size: 2vmin;
+  font-weight: bold;
+  color: #343538;
+}
+
+.items{
+  display: flex;
+}
+
+.subt{
+  font-weight: bold;
+  color: #404249;
+}
+
+.Error{
+  margin-left: 42%;
+  margin-top: 5%;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  max-width: 500px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
